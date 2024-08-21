@@ -121,7 +121,7 @@ namespace scadatest
             CreatePossion();
             url = @databaseUrl.Text;
                 //
-            // this.DoubleBuffered = true;
+            
             Move1chaylen = -1;
             // Khởi tạo vị trí ban đầu ở đây
             // đưa table lên top
