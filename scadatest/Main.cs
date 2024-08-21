@@ -165,10 +165,10 @@ namespace scadatest
             move2Ps2 = new Point(move2Ps1.X, move2Ps1.Y - 50);
             // tạo vị trí ban đầu cho move3
             move3Ps1 = groupBoxMove3.Location;
-            move3Ps2 = new Point(move3Ps1.X, move3Ps1.Y - 50);
+            move3Ps2 = new Point(move3Ps1.X, move3Ps1.Y - 132);
             // tạo vị trí ban đầu cho move34
             move4Ps1 = groupBoxMove4.Location;
-            move4Ps2 = new Point(move4Ps1.X, move4Ps1.Y - 50);
+            move4Ps2 = new Point(move4Ps1.X, move4Ps1.Y + 140);
 
             // tao vị trí ban đầu cho thang xuống 1
             ThangxuongPs1 = groupCarryLift2Move.Location; // vị trí ban đầu thành move
@@ -176,11 +176,22 @@ namespace scadatest
             // tao vị trí ban đầu cho thang lên 1
             ThanglenPs1 = groupCarryLift1Move.Location; // vị trí ban đầu thành move
             ThanglenPs2 = groupCarryLift1PsF3.Location; // vị trí tầng trên
-                                                        // tạo vị trí ban đâu cho Line 1 vị trí 0.
+           // tạo vị trí ban đâu cho Line 1 vị trí 0.
             PropertyLine.Ps0Start = picL1_0.Location;
             PropertyLine.Ps0End = picL1_1.Location;
-            PropertyLine.Ps1Start = picL1_0.Location;
+
+            PropertyLine.Ps1Start = picL1_1.Location;
             PropertyLine.Ps1End = picL1_2.Location;
+
+            PropertyLine.Ps2Start = picL1_2.Location;
+            PropertyLine.Ps2End = picL1_3.Location;
+
+            PropertyLine.Ps3Start = picL1_3.Location;
+            PropertyLine.Ps3End = picL1_4.Location;
+
+            PropertyLine.Ps4Start = picL1_4.Location;
+            PropertyLine.Ps4End = new Point(PropertyLine.Ps4Start.X + 100, PropertyLine.Ps4Start.Y);
+
             #endregion
         }
         // xử lý đọc database
@@ -212,15 +223,28 @@ namespace scadatest
         string dataX1;
         string dataX2;
         string dataX3;
-        string dataX4;
+        string dataX4;  
         string dataX5;
         string dataX6;
         string dataX7;
+        string dataX11;
+        string dataX12;
+        string dataX13;
+        string dataX14;
+        string dataY1088;
+        string dataY1089;
+        string dataY108A;
+        string dataY108D;
         // X 
         string dataX1084A;
         string dataX1055;
         string dataX1058;
+        string dataX105B;
         string dataX1085E;
+        string dataY11;
+        string dataY12;
+        string dataY13;
+        string dataY14;
         #endregion
 
         private void TimerCallback(object state)
@@ -234,7 +258,16 @@ namespace scadatest
             dataY5 = readdata(url + "dataY5.txt");
             dataY6 = readdata(url + "dataY6.txt");
             dataY7 = readdata(url + "dataY7.txt");
+            
             dataY1087 = readdata(url + "dataY1087.txt");
+            dataY1088 = readdata(url + "dataY1088.txt");
+            dataY108A = readdata(url + "dataY108A.txt");
+            dataY1089 = readdata(url + "dataY1089.txt");
+            dataY108D = readdata(url + "dataY108D.txt");
+            dataY11 = readdata(url + "dataY11.txt");
+            dataY12 = readdata(url + "dataY12.txt");
+            dataY13 = readdata(url + "dataY13.txt");
+            dataY14 = readdata(url + "dataY14.txt");
             //Read data X from PLC
             dataX0 = readdata(url + "dataX0.txt");
             dataX1 = readdata(url + "dataX1.txt");
@@ -244,7 +277,16 @@ namespace scadatest
             dataX5 = readdata(url + "dataX5.txt");
             dataX6 = readdata(url + "dataX6.txt");
             dataX7 = readdata(url + "dataX7.txt");
+            dataX11 = readdata(url + "dataX11.txt");
+            dataX12 = readdata(url + "dataX12.txt");
+            dataX13 = readdata(url + "dataX13.txt");
+            dataX14 = readdata(url + "dataX14.txt");
             dataX1084A = readdata(url + "dataX1084A.txt");
+            dataX1055 = readdata(url + "dataX1055.txt");
+            dataX1058 = readdata(url + "dataX1058.txt");
+            dataX105B = readdata(url + "dataX105B.txt");
+            dataX1085E = readdata(url + "dataX1085E.txt");
+
 
         }
         bool connected1 = false;
@@ -265,17 +307,7 @@ namespace scadatest
 
                 Move(groupCarryLift2Move, ThangxuongPs1, timer1);
             }
-
-            if (dataY0 == "1")
-            {
-
-                Move(groupCarryLift1Move, groupCarryLift1PsF3.Location, timer1);
-            }
-            if (dataY1 == "1")
-            {
-
-                Move(groupCarryLift1Move, ThanglenPs1, timer1);
-            }
+           
             // Visiable Item
             if (dataX0 == "1")
             {
@@ -288,6 +320,17 @@ namespace scadatest
                 picLift1item2.Visible = false;
             }
             // lift2
+            // Move lift2
+            if (dataY0 == "1")
+            {
+
+                Move(groupCarryLift1Move, groupCarryLift1PsF3.Location, timer1);
+            }
+            if (dataY1 == "1")
+            {
+
+                Move(groupCarryLift1Move, ThanglenPs1, timer1);
+            }
             if (dataX2 == "1")
             {
                 picLift2item1.Visible = true;
@@ -298,13 +341,28 @@ namespace scadatest
                 picLift2item1.Visible = false;
                 picLift2item2.Visible = false;
             }
+            // lift3
+           
+           
             // Move1
             ChayQuaLai(groupBoxMove1, move1Ps1, move1Ps2, Move1Item1, Move1Item2, dataY4, dataY5, dataX4, dataX5,timer1);
             //Move2
             ChayQuaLai(groupBoxMove2, move2Ps1, move2Ps2, Move2Item1, Move2Item2, dataY6, dataY7, dataX6, dataX7, timer1);
-            // Line
+            // Move Move3
+            ChayQuaLai(groupBoxMove3, move3Ps1, move3Ps2, Move3Item1, Move3Item2, dataY11, dataY12, dataX11, dataX12, timer1);
+            // Move Move4
+            ChayQuaLai(groupBoxMove4, move4Ps1, move4Ps2, Move4Item1, Move4Item2, dataY13, dataY14, dataX13, dataX14, timer1);
+            // Line 1 -0
             MoveLine(picL1_0, PropertyLine.Ps0Start, PropertyLine.Ps0End, dataX1084A, dataY1087, timer1);
-
+            // // Line 1 -1
+            MoveLine(picL1_1, PropertyLine.Ps1Start, PropertyLine.Ps1End, dataX1055, dataY1088, timer1);
+            // Line 1 -2
+            MoveLine(picL1_2, PropertyLine.Ps2Start, PropertyLine.Ps2End, dataX1058, dataY1089, timer1);
+            // Line 1 -3
+            MoveLine(picL1_3, PropertyLine.Ps3Start, PropertyLine.Ps3End, dataX105B, dataY108A, timer1);
+            // Line 1 -4
+            MoveLine(picL1_4, PropertyLine.Ps4Start, PropertyLine.Ps4End, dataX1085E, dataY108D, timer1);
+            
         }
         // Function MoveItem Line 1
         private void MoveLine(PictureBox picLine, Point viTriBanDau, Point viTriKetThuc, string readDatabase, string writeDabase, System.Windows.Forms.Timer timer)

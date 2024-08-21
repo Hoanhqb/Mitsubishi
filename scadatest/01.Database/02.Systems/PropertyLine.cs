@@ -17,11 +17,11 @@ namespace scadatest.DatabasePLC
         public static Point Ps2Start;
         public static Point Ps2End;
 
-        public static Point Ps3tart;
+        public static Point Ps3Start;
         public static Point Ps3End;
 
         public static Point Ps4Start;
-        static Point Ps4End;
+        public static Point Ps4End;
 
         public static Point Ps5Start;
         public static Point Ps5End;
