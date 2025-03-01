@@ -41,6 +41,7 @@
             btnAutoMode = new Button();
             panelNav = new Panel();
             label24 = new Label();
+            textBox1 = new TextBox();
             richTextBoxDieukhien = new RichTextBox();
             databaseUrl = new TextBox();
             btnMenuSetting = new Button();
@@ -63,17 +64,14 @@
             BtnPageL3 = new Button();
             BtnPageL2 = new Button();
             BtnPageL1 = new Button();
-            CheckX104B = new CheckBox();
             CheckY1088 = new CheckBox();
-            CheckX104A = new CheckBox();
             CheckY2 = new CheckBox();
-            CheckX1059 = new CheckBox();
             CheckBt01Wanning = new CheckBox();
             CheckY1089 = new CheckBox();
-            CheckX1055 = new CheckBox();
             pictureBox29 = new PictureBox();
             panelDesktop = new Panel();
             panel3 = new Panel();
+            picL1_4 = new PictureBox();
             groupBoxMove3 = new GroupBox();
             Move3Item2 = new PictureBox();
             Move3Item1 = new PictureBox();
@@ -113,22 +111,21 @@
             picLift1S2 = new PictureBox();
             picLift1S4 = new PictureBox();
             picLift1S3 = new PictureBox();
-            textBox1 = new TextBox();
             label35 = new Label();
-            pictureBox102 = new PictureBox();
-            pictureBox103 = new PictureBox();
+            picL3_01 = new PictureBox();
+            picL3_11 = new PictureBox();
             pictureBox72 = new PictureBox();
             pictureBox73 = new PictureBox();
-            pictureBox60 = new PictureBox();
-            pictureBox61 = new PictureBox();
-            pictureBox28 = new PictureBox();
-            pictureBox57 = new PictureBox();
-            pictureBox16 = new PictureBox();
-            pictureBox27 = new PictureBox();
-            pictureBox13 = new PictureBox();
-            pictureBox15 = new PictureBox();
-            pictureBox4 = new PictureBox();
-            pictureBox3 = new PictureBox();
+            picL5_00 = new PictureBox();
+            picL5_10 = new PictureBox();
+            picL4_01 = new PictureBox();
+            picL4_11 = new PictureBox();
+            picL4_00 = new PictureBox();
+            picL4_10 = new PictureBox();
+            picL5_01 = new PictureBox();
+            picL5_11 = new PictureBox();
+            picL3_00 = new PictureBox();
+            picL3_10 = new PictureBox();
             picM1_I3 = new PictureBox();
             pictureBox92 = new PictureBox();
             pictureBox77 = new PictureBox();
@@ -147,9 +144,9 @@
             pictureBox143 = new PictureBox();
             pictureBox142 = new PictureBox();
             pictureBox136 = new PictureBox();
-            pictureBox128 = new PictureBox();
-            pictureBox129 = new PictureBox();
-            pictureBox130 = new PictureBox();
+            picL2_2 = new PictureBox();
+            picL2_1 = new PictureBox();
+            picL2_0 = new PictureBox();
             pictureBox125 = new PictureBox();
             label18 = new Label();
             label17 = new Label();
@@ -192,7 +189,6 @@
             pictureBox34 = new PictureBox();
             pictureBox35 = new PictureBox();
             pictureBox31 = new PictureBox();
-            picL1_4 = new PictureBox();
             picL1_3 = new PictureBox();
             PicMC1 = new PictureBox();
             pictureBox33 = new PictureBox();
@@ -216,24 +212,13 @@
             pictureBox7 = new PictureBox();
             label30 = new Label();
             panel2 = new Panel();
-            checkBox2 = new CheckBox();
-            checkBox3 = new CheckBox();
-            checkBox9 = new CheckBox();
-            checkBox10 = new CheckBox();
-            checkLSensorL4 = new CheckBox();
-            checkLSensorL3 = new CheckBox();
-            checkLSensorL2 = new CheckBox();
-            checkLSensorL1 = new CheckBox();
             checkX10A1 = new CheckBox();
             checkX10A2 = new CheckBox();
             checkX10A6 = new CheckBox();
             checkX10A5 = new CheckBox();
-            checkBox11 = new CheckBox();
             label40 = new Label();
-            checkX105E = new CheckBox();
             checkY108B = new CheckBox();
             label39 = new Label();
-            checkBox7 = new CheckBox();
             checkBox8 = new CheckBox();
             label38 = new Label();
             label37 = new Label();
@@ -264,6 +249,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox29).BeginInit();
             panelDesktop.SuspendLayout();
             panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)picL1_4).BeginInit();
             groupBoxMove3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)Move3Item2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)Move3Item1).BeginInit();
@@ -301,20 +287,20 @@
             ((System.ComponentModel.ISupportInitialize)picLift1S2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)picLift1S4).BeginInit();
             ((System.ComponentModel.ISupportInitialize)picLift1S3).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox102).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox103).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)picL3_01).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)picL3_11).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox72).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox73).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox60).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox61).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox28).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox57).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox16).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox27).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox13).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox15).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)picL5_00).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)picL5_10).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)picL4_01).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)picL4_11).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)picL4_00).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)picL4_10).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)picL5_01).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)picL5_11).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)picL3_00).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)picL3_10).BeginInit();
             ((System.ComponentModel.ISupportInitialize)picM1_I3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox92).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox77).BeginInit();
@@ -328,9 +314,9 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox143).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox142).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox136).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox128).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox129).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox130).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)picL2_2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)picL2_1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)picL2_0).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox125).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox115).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox116).BeginInit();
@@ -355,7 +341,6 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox34).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox35).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox31).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)picL1_4).BeginInit();
             ((System.ComponentModel.ISupportInitialize)picL1_3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)PicMC1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox33).BeginInit();
@@ -426,6 +411,7 @@
             panelMenu.Controls.Add(btnAutoMode);
             panelMenu.Controls.Add(panelNav);
             panelMenu.Controls.Add(label24);
+            panelMenu.Controls.Add(textBox1);
             panelMenu.Controls.Add(richTextBoxDieukhien);
             panelMenu.Controls.Add(databaseUrl);
             panelMenu.Controls.Add(btnMenuSetting);
@@ -508,6 +494,13 @@
             label24.Size = new Size(132, 31);
             label24.TabIndex = 167;
             label24.Text = "Chế Độ Tay";
+            // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(9, 617);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(125, 27);
+            textBox1.TabIndex = 559;
             // 
             // richTextBoxDieukhien
             // 
@@ -799,17 +792,6 @@
             BtnPageL1.Text = "PAGE1";
             BtnPageL1.UseVisualStyleBackColor = true;
             // 
-            // CheckX104B
-            // 
-            CheckX104B.AutoSize = true;
-            CheckX104B.ForeColor = SystemColors.ButtonHighlight;
-            CheckX104B.Location = new Point(13, 35);
-            CheckX104B.Name = "CheckX104B";
-            CheckX104B.Size = new Size(73, 24);
-            CheckX104B.TabIndex = 53;
-            CheckX104B.Text = "X104B";
-            CheckX104B.UseVisualStyleBackColor = true;
-            // 
             // CheckY1088
             // 
             CheckY1088.AutoSize = true;
@@ -821,38 +803,16 @@
             CheckY1088.Text = "Y1088";
             CheckY1088.UseVisualStyleBackColor = true;
             // 
-            // CheckX104A
-            // 
-            CheckX104A.AutoSize = true;
-            CheckX104A.ForeColor = SystemColors.ButtonHighlight;
-            CheckX104A.Location = new Point(13, 59);
-            CheckX104A.Name = "CheckX104A";
-            CheckX104A.Size = new Size(74, 24);
-            CheckX104A.TabIndex = 55;
-            CheckX104A.Text = "X104A";
-            CheckX104A.UseVisualStyleBackColor = true;
-            // 
             // CheckY2
             // 
             CheckY2.AutoSize = true;
             CheckY2.ForeColor = SystemColors.ButtonHighlight;
-            CheckY2.Location = new Point(13, 84);
+            CheckY2.Location = new Point(13, 59);
             CheckY2.Name = "CheckY2";
             CheckY2.Size = new Size(71, 24);
             CheckY2.TabIndex = 56;
             CheckY2.Text = "Y1087";
             CheckY2.UseVisualStyleBackColor = true;
-            // 
-            // CheckX1059
-            // 
-            CheckX1059.AutoSize = true;
-            CheckX1059.ForeColor = SystemColors.ButtonHighlight;
-            CheckX1059.Location = new Point(183, 35);
-            CheckX1059.Name = "CheckX1059";
-            CheckX1059.Size = new Size(72, 24);
-            CheckX1059.TabIndex = 57;
-            CheckX1059.Text = "X1059";
-            CheckX1059.UseVisualStyleBackColor = true;
             // 
             // CheckBt01Wanning
             // 
@@ -875,17 +835,6 @@
             CheckY1089.TabIndex = 60;
             CheckY1089.Text = "Y1089";
             CheckY1089.UseVisualStyleBackColor = true;
-            // 
-            // CheckX1055
-            // 
-            CheckX1055.AutoSize = true;
-            CheckX1055.ForeColor = SystemColors.ButtonHighlight;
-            CheckX1055.Location = new Point(101, 35);
-            CheckX1055.Name = "CheckX1055";
-            CheckX1055.Size = new Size(72, 24);
-            CheckX1055.TabIndex = 61;
-            CheckX1055.Text = "X1055";
-            CheckX1055.UseVisualStyleBackColor = true;
             // 
             // pictureBox29
             // 
@@ -914,6 +863,7 @@
             // panel3
             // 
             panel3.BackColor = Color.Black;
+            panel3.Controls.Add(picL1_4);
             panel3.Controls.Add(groupBoxMove3);
             panel3.Controls.Add(groupBoxMove2);
             panel3.Controls.Add(pictureBox12);
@@ -923,22 +873,21 @@
             panel3.Controls.Add(groupCarryLift2Move);
             panel3.Controls.Add(groupCarryLift1PsF3);
             panel3.Controls.Add(groupCarryLift1Move);
-            panel3.Controls.Add(textBox1);
             panel3.Controls.Add(label35);
-            panel3.Controls.Add(pictureBox102);
-            panel3.Controls.Add(pictureBox103);
+            panel3.Controls.Add(picL3_01);
+            panel3.Controls.Add(picL3_11);
             panel3.Controls.Add(pictureBox72);
             panel3.Controls.Add(pictureBox73);
-            panel3.Controls.Add(pictureBox60);
-            panel3.Controls.Add(pictureBox61);
-            panel3.Controls.Add(pictureBox28);
-            panel3.Controls.Add(pictureBox57);
-            panel3.Controls.Add(pictureBox16);
-            panel3.Controls.Add(pictureBox27);
-            panel3.Controls.Add(pictureBox13);
-            panel3.Controls.Add(pictureBox15);
-            panel3.Controls.Add(pictureBox4);
-            panel3.Controls.Add(pictureBox3);
+            panel3.Controls.Add(picL5_00);
+            panel3.Controls.Add(picL5_10);
+            panel3.Controls.Add(picL4_01);
+            panel3.Controls.Add(picL4_11);
+            panel3.Controls.Add(picL4_00);
+            panel3.Controls.Add(picL4_10);
+            panel3.Controls.Add(picL5_01);
+            panel3.Controls.Add(picL5_11);
+            panel3.Controls.Add(picL3_00);
+            panel3.Controls.Add(picL3_10);
             panel3.Controls.Add(picM1_I3);
             panel3.Controls.Add(pictureBox92);
             panel3.Controls.Add(pictureBox77);
@@ -957,9 +906,9 @@
             panel3.Controls.Add(pictureBox143);
             panel3.Controls.Add(pictureBox142);
             panel3.Controls.Add(pictureBox136);
-            panel3.Controls.Add(pictureBox128);
-            panel3.Controls.Add(pictureBox129);
-            panel3.Controls.Add(pictureBox130);
+            panel3.Controls.Add(picL2_2);
+            panel3.Controls.Add(picL2_1);
+            panel3.Controls.Add(picL2_0);
             panel3.Controls.Add(pictureBox125);
             panel3.Controls.Add(label18);
             panel3.Controls.Add(label17);
@@ -1002,7 +951,6 @@
             panel3.Controls.Add(pictureBox34);
             panel3.Controls.Add(pictureBox35);
             panel3.Controls.Add(pictureBox31);
-            panel3.Controls.Add(picL1_4);
             panel3.Controls.Add(picL1_3);
             panel3.Controls.Add(PicMC1);
             panel3.Controls.Add(pictureBox33);
@@ -1029,6 +977,16 @@
             panel3.Size = new Size(1696, 884);
             panel3.TabIndex = 346;
             panel3.Paint += panel3_Paint;
+            // 
+            // picL1_4
+            // 
+            picL1_4.BackColor = Color.FromArgb(0, 192, 0);
+            picL1_4.Location = new Point(348, 713);
+            picL1_4.Name = "picL1_4";
+            picL1_4.Size = new Size(80, 40);
+            picL1_4.TabIndex = 341;
+            picL1_4.TabStop = false;
+            picL1_4.Visible = false;
             // 
             // groupBoxMove3
             // 
@@ -1508,13 +1466,6 @@
             picLift1S3.TabIndex = 444;
             picLift1S3.TabStop = false;
             // 
-            // textBox1
-            // 
-            textBox1.Location = new Point(149, 461);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(125, 27);
-            textBox1.TabIndex = 559;
-            // 
             // label35
             // 
             label35.AutoSize = true;
@@ -1526,25 +1477,25 @@
             label35.TabIndex = 194;
             label35.Text = "BT 01";
             // 
-            // pictureBox102
+            // picL3_01
             // 
-            pictureBox102.BackColor = Color.FromArgb(0, 192, 0);
-            pictureBox102.Location = new Point(162, 291);
-            pictureBox102.Name = "pictureBox102";
-            pictureBox102.Size = new Size(80, 46);
-            pictureBox102.TabIndex = 546;
-            pictureBox102.TabStop = false;
-            pictureBox102.Visible = false;
+            picL3_01.BackColor = Color.FromArgb(0, 192, 0);
+            picL3_01.Location = new Point(162, 291);
+            picL3_01.Name = "picL3_01";
+            picL3_01.Size = new Size(80, 46);
+            picL3_01.TabIndex = 546;
+            picL3_01.TabStop = false;
+            picL3_01.Visible = false;
             // 
-            // pictureBox103
+            // picL3_11
             // 
-            pictureBox103.BackColor = Color.FromArgb(0, 192, 0);
-            pictureBox103.Location = new Point(162, 343);
-            pictureBox103.Name = "pictureBox103";
-            pictureBox103.Size = new Size(80, 46);
-            pictureBox103.TabIndex = 545;
-            pictureBox103.TabStop = false;
-            pictureBox103.Visible = false;
+            picL3_11.BackColor = Color.FromArgb(0, 192, 0);
+            picL3_11.Location = new Point(162, 343);
+            picL3_11.Name = "picL3_11";
+            picL3_11.Size = new Size(80, 46);
+            picL3_11.TabIndex = 545;
+            picL3_11.TabStop = false;
+            picL3_11.Visible = false;
             // 
             // pictureBox72
             // 
@@ -1566,112 +1517,112 @@
             pictureBox73.TabStop = false;
             pictureBox73.Visible = false;
             // 
-            // pictureBox60
+            // picL5_00
             // 
-            pictureBox60.BackColor = Color.FromArgb(0, 192, 0);
-            pictureBox60.Location = new Point(1407, 295);
-            pictureBox60.Name = "pictureBox60";
-            pictureBox60.Size = new Size(80, 46);
-            pictureBox60.TabIndex = 539;
-            pictureBox60.TabStop = false;
-            pictureBox60.Visible = false;
+            picL5_00.BackColor = Color.FromArgb(0, 192, 0);
+            picL5_00.Location = new Point(1407, 295);
+            picL5_00.Name = "picL5_00";
+            picL5_00.Size = new Size(80, 46);
+            picL5_00.TabIndex = 539;
+            picL5_00.TabStop = false;
+            picL5_00.Visible = false;
             // 
-            // pictureBox61
+            // picL5_10
             // 
-            pictureBox61.BackColor = Color.FromArgb(0, 192, 0);
-            pictureBox61.Location = new Point(1407, 347);
-            pictureBox61.Name = "pictureBox61";
-            pictureBox61.Size = new Size(80, 46);
-            pictureBox61.TabIndex = 538;
-            pictureBox61.TabStop = false;
-            pictureBox61.Visible = false;
+            picL5_10.BackColor = Color.FromArgb(0, 192, 0);
+            picL5_10.Location = new Point(1407, 347);
+            picL5_10.Name = "picL5_10";
+            picL5_10.Size = new Size(80, 46);
+            picL5_10.TabIndex = 538;
+            picL5_10.TabStop = false;
+            picL5_10.Visible = false;
             // 
-            // pictureBox28
+            // picL4_01
             // 
-            pictureBox28.BackColor = Color.FromArgb(0, 192, 0);
-            pictureBox28.Location = new Point(1407, 163);
-            pictureBox28.Name = "pictureBox28";
-            pictureBox28.Size = new Size(80, 46);
-            pictureBox28.TabIndex = 537;
-            pictureBox28.TabStop = false;
-            pictureBox28.Visible = false;
+            picL4_01.BackColor = Color.FromArgb(0, 192, 0);
+            picL4_01.Location = new Point(1407, 163);
+            picL4_01.Name = "picL4_01";
+            picL4_01.Size = new Size(80, 46);
+            picL4_01.TabIndex = 537;
+            picL4_01.TabStop = false;
+            picL4_01.Visible = false;
             // 
-            // pictureBox57
+            // picL4_11
             // 
-            pictureBox57.BackColor = Color.FromArgb(0, 192, 0);
-            pictureBox57.Location = new Point(1407, 215);
-            pictureBox57.Name = "pictureBox57";
-            pictureBox57.Size = new Size(80, 46);
-            pictureBox57.TabIndex = 536;
-            pictureBox57.TabStop = false;
-            pictureBox57.Visible = false;
+            picL4_11.BackColor = Color.FromArgb(0, 192, 0);
+            picL4_11.Location = new Point(1407, 215);
+            picL4_11.Name = "picL4_11";
+            picL4_11.Size = new Size(80, 46);
+            picL4_11.TabIndex = 536;
+            picL4_11.TabStop = false;
+            picL4_11.Visible = false;
             // 
-            // pictureBox16
+            // picL4_00
             // 
-            pictureBox16.BackColor = Color.FromArgb(0, 192, 0);
-            pictureBox16.Location = new Point(162, 159);
-            pictureBox16.Name = "pictureBox16";
-            pictureBox16.Size = new Size(80, 46);
-            pictureBox16.TabIndex = 535;
-            pictureBox16.TabStop = false;
-            pictureBox16.Visible = false;
+            picL4_00.BackColor = Color.FromArgb(0, 192, 0);
+            picL4_00.Location = new Point(162, 159);
+            picL4_00.Name = "picL4_00";
+            picL4_00.Size = new Size(80, 46);
+            picL4_00.TabIndex = 535;
+            picL4_00.TabStop = false;
+            picL4_00.Visible = false;
             // 
-            // pictureBox27
+            // picL4_10
             // 
-            pictureBox27.BackColor = Color.FromArgb(0, 192, 0);
-            pictureBox27.Location = new Point(162, 211);
-            pictureBox27.Name = "pictureBox27";
-            pictureBox27.Size = new Size(80, 46);
-            pictureBox27.TabIndex = 534;
-            pictureBox27.TabStop = false;
-            pictureBox27.Visible = false;
+            picL4_10.BackColor = Color.FromArgb(0, 192, 0);
+            picL4_10.Location = new Point(162, 211);
+            picL4_10.Name = "picL4_10";
+            picL4_10.Size = new Size(80, 46);
+            picL4_10.TabIndex = 534;
+            picL4_10.TabStop = false;
+            picL4_10.Visible = false;
             // 
-            // pictureBox13
+            // picL5_01
             // 
-            pictureBox13.BackColor = Color.FromArgb(0, 192, 0);
-            pictureBox13.Location = new Point(832, 295);
-            pictureBox13.Name = "pictureBox13";
-            pictureBox13.Size = new Size(80, 46);
-            pictureBox13.TabIndex = 533;
-            pictureBox13.TabStop = false;
-            pictureBox13.Visible = false;
+            picL5_01.BackColor = Color.FromArgb(0, 192, 0);
+            picL5_01.Location = new Point(832, 295);
+            picL5_01.Name = "picL5_01";
+            picL5_01.Size = new Size(80, 46);
+            picL5_01.TabIndex = 533;
+            picL5_01.TabStop = false;
+            picL5_01.Visible = false;
             // 
-            // pictureBox15
+            // picL5_11
             // 
-            pictureBox15.BackColor = Color.FromArgb(0, 192, 0);
-            pictureBox15.Location = new Point(832, 347);
-            pictureBox15.Name = "pictureBox15";
-            pictureBox15.Size = new Size(80, 46);
-            pictureBox15.TabIndex = 532;
-            pictureBox15.TabStop = false;
-            pictureBox15.Visible = false;
+            picL5_11.BackColor = Color.FromArgb(0, 192, 0);
+            picL5_11.Location = new Point(832, 347);
+            picL5_11.Name = "picL5_11";
+            picL5_11.Size = new Size(80, 46);
+            picL5_11.TabIndex = 532;
+            picL5_11.TabStop = false;
+            picL5_11.Visible = false;
             // 
-            // pictureBox4
+            // picL3_00
             // 
-            pictureBox4.BackColor = Color.FromArgb(0, 192, 0);
-            pictureBox4.Location = new Point(446, 290);
-            pictureBox4.Name = "pictureBox4";
-            pictureBox4.Size = new Size(80, 46);
-            pictureBox4.TabIndex = 531;
-            pictureBox4.TabStop = false;
-            pictureBox4.Visible = false;
+            picL3_00.BackColor = Color.FromArgb(0, 192, 0);
+            picL3_00.Location = new Point(446, 290);
+            picL3_00.Name = "picL3_00";
+            picL3_00.Size = new Size(80, 46);
+            picL3_00.TabIndex = 531;
+            picL3_00.TabStop = false;
+            picL3_00.Visible = false;
             // 
-            // pictureBox3
+            // picL3_10
             // 
-            pictureBox3.BackColor = Color.FromArgb(0, 192, 0);
-            pictureBox3.Location = new Point(446, 342);
-            pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(80, 46);
-            pictureBox3.TabIndex = 530;
-            pictureBox3.TabStop = false;
-            pictureBox3.Visible = false;
+            picL3_10.BackColor = Color.FromArgb(0, 192, 0);
+            picL3_10.Location = new Point(446, 342);
+            picL3_10.Name = "picL3_10";
+            picL3_10.Size = new Size(80, 46);
+            picL3_10.TabIndex = 530;
+            picL3_10.TabStop = false;
+            picL3_10.Visible = false;
             // 
             // picM1_I3
             // 
             picM1_I3.BackColor = Color.FromArgb(0, 192, 0);
-            picM1_I3.Location = new Point(382, 460);
+            picM1_I3.Location = new Point(327, 482);
             picM1_I3.Name = "picM1_I3";
-            picM1_I3.Size = new Size(80, 94);
+            picM1_I3.Size = new Size(56, 124);
             picM1_I3.TabIndex = 344;
             picM1_I3.TabStop = false;
             picM1_I3.Visible = false;
@@ -1867,35 +1818,35 @@
             pictureBox136.TabIndex = 456;
             pictureBox136.TabStop = false;
             // 
-            // pictureBox128
+            // picL2_2
             // 
-            pictureBox128.BackColor = Color.FromArgb(0, 192, 0);
-            pictureBox128.Location = new Point(1021, 723);
-            pictureBox128.Name = "pictureBox128";
-            pictureBox128.Size = new Size(80, 40);
-            pictureBox128.TabIndex = 455;
-            pictureBox128.TabStop = false;
-            pictureBox128.Visible = false;
+            picL2_2.BackColor = Color.FromArgb(0, 192, 0);
+            picL2_2.Location = new Point(1021, 723);
+            picL2_2.Name = "picL2_2";
+            picL2_2.Size = new Size(80, 40);
+            picL2_2.TabIndex = 455;
+            picL2_2.TabStop = false;
+            picL2_2.Visible = false;
             // 
-            // pictureBox129
+            // picL2_1
             // 
-            pictureBox129.BackColor = Color.FromArgb(0, 192, 0);
-            pictureBox129.Location = new Point(928, 725);
-            pictureBox129.Name = "pictureBox129";
-            pictureBox129.Size = new Size(80, 40);
-            pictureBox129.TabIndex = 454;
-            pictureBox129.TabStop = false;
-            pictureBox129.Visible = false;
+            picL2_1.BackColor = Color.FromArgb(0, 192, 0);
+            picL2_1.Location = new Point(928, 725);
+            picL2_1.Name = "picL2_1";
+            picL2_1.Size = new Size(80, 40);
+            picL2_1.TabIndex = 454;
+            picL2_1.TabStop = false;
+            picL2_1.Visible = false;
             // 
-            // pictureBox130
+            // picL2_0
             // 
-            pictureBox130.BackColor = Color.FromArgb(0, 192, 0);
-            pictureBox130.Location = new Point(832, 724);
-            pictureBox130.Name = "pictureBox130";
-            pictureBox130.Size = new Size(80, 40);
-            pictureBox130.TabIndex = 453;
-            pictureBox130.TabStop = false;
-            pictureBox130.Visible = false;
+            picL2_0.BackColor = Color.FromArgb(0, 192, 0);
+            picL2_0.Location = new Point(832, 724);
+            picL2_0.Name = "picL2_0";
+            picL2_0.Size = new Size(80, 40);
+            picL2_0.TabIndex = 453;
+            picL2_0.TabStop = false;
+            picL2_0.Visible = false;
             // 
             // pictureBox125
             // 
@@ -2006,7 +1957,7 @@
             // pictureBox112
             // 
             pictureBox112.Image = Properties.Resources.green_on;
-            pictureBox112.Location = new Point(349, 555);
+            pictureBox112.Location = new Point(382, 815);
             pictureBox112.Name = "pictureBox112";
             pictureBox112.Size = new Size(20, 20);
             pictureBox112.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -2018,7 +1969,7 @@
             label14.AutoSize = true;
             label14.BackColor = Color.Transparent;
             label14.ForeColor = SystemColors.ButtonFace;
-            label14.Location = new Point(297, 555);
+            label14.Location = new Point(335, 815);
             label14.Name = "label14";
             label14.Size = new Size(52, 20);
             label14.TabIndex = 431;
@@ -2353,16 +2304,6 @@
             pictureBox31.TabIndex = 99;
             pictureBox31.TabStop = false;
             // 
-            // picL1_4
-            // 
-            picL1_4.BackColor = Color.FromArgb(0, 192, 0);
-            picL1_4.Location = new Point(348, 713);
-            picL1_4.Name = "picL1_4";
-            picL1_4.Size = new Size(80, 40);
-            picL1_4.TabIndex = 341;
-            picL1_4.TabStop = false;
-            picL1_4.Visible = false;
-            // 
             // picL1_3
             // 
             picL1_3.BackColor = Color.FromArgb(0, 192, 0);
@@ -2436,7 +2377,7 @@
             label1.AutoSize = true;
             label1.Font = new Font("Microsoft Sans Serif", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.FromArgb(158, 161, 176);
-            label1.Location = new Point(133, 420);
+            label1.Location = new Point(145, 443);
             label1.Name = "label1";
             label1.Size = new Size(129, 39);
             label1.TabIndex = 260;
@@ -2528,7 +2469,7 @@
             // pictureBox56
             // 
             pictureBox56.BackColor = Color.FromArgb(224, 224, 224);
-            pictureBox56.Location = new Point(0, 407);
+            pictureBox56.Location = new Point(0, 415);
             pictureBox56.Name = "pictureBox56";
             pictureBox56.Size = new Size(1693, 10);
             pictureBox56.TabIndex = 529;
@@ -2598,24 +2539,13 @@
             // panel2
             // 
             panel2.BackColor = Color.FromArgb(37, 42, 64);
-            panel2.Controls.Add(checkBox2);
-            panel2.Controls.Add(checkBox3);
-            panel2.Controls.Add(checkBox9);
-            panel2.Controls.Add(checkBox10);
-            panel2.Controls.Add(checkLSensorL4);
-            panel2.Controls.Add(checkLSensorL3);
-            panel2.Controls.Add(checkLSensorL2);
-            panel2.Controls.Add(checkLSensorL1);
             panel2.Controls.Add(checkX10A1);
             panel2.Controls.Add(checkX10A2);
             panel2.Controls.Add(checkX10A6);
             panel2.Controls.Add(checkX10A5);
-            panel2.Controls.Add(checkBox11);
             panel2.Controls.Add(label40);
-            panel2.Controls.Add(checkX105E);
             panel2.Controls.Add(checkY108B);
             panel2.Controls.Add(label39);
-            panel2.Controls.Add(checkBox7);
             panel2.Controls.Add(checkBox8);
             panel2.Controls.Add(label38);
             panel2.Controls.Add(label37);
@@ -2630,110 +2560,18 @@
             panel2.Controls.Add(checkChayveM2);
             panel2.Controls.Add(checkChaylenM2);
             panel2.Controls.Add(label32);
-            panel2.Controls.Add(CheckX1059);
             panel2.Controls.Add(checkchayve);
             panel2.Controls.Add(CheckY1088);
             panel2.Controls.Add(checkChaylen);
-            panel2.Controls.Add(CheckX104A);
-            panel2.Controls.Add(CheckX104B);
             panel2.Controls.Add(CheckY2);
             panel2.Controls.Add(CheckY1089);
             panel2.Controls.Add(label29);
             panel2.Controls.Add(CheckBt01Wanning);
-            panel2.Controls.Add(CheckX1055);
             panel2.Controls.Add(label30);
             panel2.Location = new Point(176, 944);
             panel2.Name = "panel2";
             panel2.Size = new Size(1715, 124);
             panel2.TabIndex = 259;
-            // 
-            // checkBox2
-            // 
-            checkBox2.AutoSize = true;
-            checkBox2.ForeColor = SystemColors.ButtonHighlight;
-            checkBox2.Location = new Point(1234, 59);
-            checkBox2.Name = "checkBox2";
-            checkBox2.Size = new Size(90, 24);
-            checkBox2.TabIndex = 215;
-            checkBox2.Text = "SensorL4";
-            checkBox2.UseVisualStyleBackColor = true;
-            // 
-            // checkBox3
-            // 
-            checkBox3.AutoSize = true;
-            checkBox3.ForeColor = SystemColors.ButtonHighlight;
-            checkBox3.Location = new Point(1234, 35);
-            checkBox3.Name = "checkBox3";
-            checkBox3.Size = new Size(94, 24);
-            checkBox3.TabIndex = 214;
-            checkBox3.Text = "Sensor L2";
-            checkBox3.UseVisualStyleBackColor = true;
-            // 
-            // checkBox9
-            // 
-            checkBox9.AutoSize = true;
-            checkBox9.ForeColor = SystemColors.ButtonHighlight;
-            checkBox9.Location = new Point(1145, 59);
-            checkBox9.Name = "checkBox9";
-            checkBox9.Size = new Size(90, 24);
-            checkBox9.TabIndex = 213;
-            checkBox9.Text = "SensorL3";
-            checkBox9.UseVisualStyleBackColor = true;
-            // 
-            // checkBox10
-            // 
-            checkBox10.AutoSize = true;
-            checkBox10.ForeColor = SystemColors.ButtonHighlight;
-            checkBox10.Location = new Point(1145, 35);
-            checkBox10.Name = "checkBox10";
-            checkBox10.Size = new Size(90, 24);
-            checkBox10.TabIndex = 212;
-            checkBox10.Text = "SensorL1";
-            checkBox10.UseVisualStyleBackColor = true;
-            // 
-            // checkLSensorL4
-            // 
-            checkLSensorL4.AutoSize = true;
-            checkLSensorL4.ForeColor = SystemColors.ButtonHighlight;
-            checkLSensorL4.Location = new Point(928, 59);
-            checkLSensorL4.Name = "checkLSensorL4";
-            checkLSensorL4.Size = new Size(90, 24);
-            checkLSensorL4.TabIndex = 211;
-            checkLSensorL4.Text = "SensorL4";
-            checkLSensorL4.UseVisualStyleBackColor = true;
-            // 
-            // checkLSensorL3
-            // 
-            checkLSensorL3.AutoSize = true;
-            checkLSensorL3.ForeColor = SystemColors.ButtonHighlight;
-            checkLSensorL3.Location = new Point(928, 35);
-            checkLSensorL3.Name = "checkLSensorL3";
-            checkLSensorL3.Size = new Size(94, 24);
-            checkLSensorL3.TabIndex = 210;
-            checkLSensorL3.Text = "Sensor L2";
-            checkLSensorL3.UseVisualStyleBackColor = true;
-            // 
-            // checkLSensorL2
-            // 
-            checkLSensorL2.AutoSize = true;
-            checkLSensorL2.ForeColor = SystemColors.ButtonHighlight;
-            checkLSensorL2.Location = new Point(839, 59);
-            checkLSensorL2.Name = "checkLSensorL2";
-            checkLSensorL2.Size = new Size(90, 24);
-            checkLSensorL2.TabIndex = 209;
-            checkLSensorL2.Text = "SensorL3";
-            checkLSensorL2.UseVisualStyleBackColor = true;
-            // 
-            // checkLSensorL1
-            // 
-            checkLSensorL1.AutoSize = true;
-            checkLSensorL1.ForeColor = SystemColors.ButtonHighlight;
-            checkLSensorL1.Location = new Point(839, 35);
-            checkLSensorL1.Name = "checkLSensorL1";
-            checkLSensorL1.Size = new Size(90, 24);
-            checkLSensorL1.TabIndex = 208;
-            checkLSensorL1.Text = "SensorL1";
-            checkLSensorL1.UseVisualStyleBackColor = true;
             // 
             // checkX10A1
             // 
@@ -2779,44 +2617,22 @@
             checkX10A5.Text = "X10A5";
             checkX10A5.UseVisualStyleBackColor = true;
             // 
-            // checkBox11
-            // 
-            checkBox11.AutoSize = true;
-            checkBox11.ForeColor = SystemColors.ButtonHighlight;
-            checkBox11.Location = new Point(353, 59);
-            checkBox11.Name = "checkBox11";
-            checkBox11.Size = new Size(73, 24);
-            checkBox11.TabIndex = 203;
-            checkBox11.Text = "X105B";
-            checkBox11.UseVisualStyleBackColor = true;
-            // 
             // label40
             // 
             label40.AutoSize = true;
             label40.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
             label40.ForeColor = Color.Blue;
-            label40.Location = new Point(351, 11);
+            label40.Location = new Point(351, 28);
             label40.Name = "label40";
             label40.Size = new Size(82, 23);
             label40.TabIndex = 202;
             label40.Text = "BT 01-L4";
             // 
-            // checkX105E
-            // 
-            checkX105E.AutoSize = true;
-            checkX105E.ForeColor = SystemColors.ButtonHighlight;
-            checkX105E.Location = new Point(353, 35);
-            checkX105E.Name = "checkX105E";
-            checkX105E.Size = new Size(72, 24);
-            checkX105E.TabIndex = 200;
-            checkX105E.Text = "X105E";
-            checkX105E.UseVisualStyleBackColor = true;
-            // 
             // checkY108B
             // 
             checkY108B.AutoSize = true;
             checkY108B.ForeColor = SystemColors.ButtonHighlight;
-            checkY108B.Location = new Point(353, 83);
+            checkY108B.Location = new Point(353, 59);
             checkY108B.Name = "checkY108B";
             checkY108B.Size = new Size(72, 24);
             checkY108B.TabIndex = 201;
@@ -2828,22 +2644,11 @@
             label39.AutoSize = true;
             label39.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
             label39.ForeColor = Color.Blue;
-            label39.Location = new Point(264, 11);
+            label39.Location = new Point(264, 28);
             label39.Name = "label39";
             label39.Size = new Size(82, 23);
             label39.TabIndex = 199;
             label39.Text = "BT 01-L3";
-            // 
-            // checkBox7
-            // 
-            checkBox7.AutoSize = true;
-            checkBox7.ForeColor = SystemColors.ButtonHighlight;
-            checkBox7.Location = new Point(268, 35);
-            checkBox7.Name = "checkBox7";
-            checkBox7.Size = new Size(73, 24);
-            checkBox7.TabIndex = 197;
-            checkBox7.Text = "X105B";
-            checkBox7.UseVisualStyleBackColor = true;
             // 
             // checkBox8
             // 
@@ -2861,7 +2666,7 @@
             label38.AutoSize = true;
             label38.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
             label38.ForeColor = Color.Blue;
-            label38.Location = new Point(179, 11);
+            label38.Location = new Point(179, 28);
             label38.Name = "label38";
             label38.Size = new Size(82, 23);
             label38.TabIndex = 196;
@@ -2872,7 +2677,7 @@
             label37.AutoSize = true;
             label37.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
             label37.ForeColor = Color.Blue;
-            label37.Location = new Point(95, 11);
+            label37.Location = new Point(95, 28);
             label37.Name = "label37";
             label37.Size = new Size(82, 23);
             label37.TabIndex = 195;
@@ -2883,7 +2688,7 @@
             label36.AutoSize = true;
             label36.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
             label36.ForeColor = Color.Blue;
-            label36.Location = new Point(11, 11);
+            label36.Location = new Point(11, 28);
             label36.Name = "label36";
             label36.Size = new Size(73, 23);
             label36.TabIndex = 194;
@@ -2904,7 +2709,7 @@
             // 
             checkBox5.AutoSize = true;
             checkBox5.ForeColor = SystemColors.ButtonHighlight;
-            checkBox5.Location = new Point(1053, 59);
+            checkBox5.Location = new Point(864, 60);
             checkBox5.Name = "checkBox5";
             checkBox5.Size = new Size(82, 24);
             checkBox5.TabIndex = 191;
@@ -2916,7 +2721,7 @@
             // 
             checkBox6.AutoSize = true;
             checkBox6.ForeColor = SystemColors.ButtonHighlight;
-            checkBox6.Location = new Point(1053, 35);
+            checkBox6.Location = new Point(864, 36);
             checkBox6.Name = "checkBox6";
             checkBox6.Size = new Size(90, 24);
             checkBox6.TabIndex = 190;
@@ -2953,7 +2758,7 @@
             label34.AutoSize = true;
             label34.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
             label34.ForeColor = Color.Blue;
-            label34.Location = new Point(1139, 10);
+            label34.Location = new Point(850, 10);
             label34.Name = "label34";
             label34.Size = new Size(115, 23);
             label34.TabIndex = 187;
@@ -2964,7 +2769,7 @@
             label33.AutoSize = true;
             label33.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
             label33.ForeColor = Color.Blue;
-            label33.Location = new Point(825, 9);
+            label33.Location = new Point(743, 9);
             label33.Name = "label33";
             label33.Size = new Size(89, 23);
             label33.TabIndex = 186;
@@ -2974,7 +2779,7 @@
             // 
             checkChayveM2.AutoSize = true;
             checkChayveM2.ForeColor = SystemColors.ButtonHighlight;
-            checkChayveM2.Location = new Point(1370, 59);
+            checkChayveM2.Location = new Point(985, 59);
             checkChayveM2.Name = "checkChayveM2";
             checkChayveM2.Size = new Size(82, 24);
             checkChayveM2.TabIndex = 185;
@@ -2986,7 +2791,7 @@
             // 
             checkChaylenM2.AutoSize = true;
             checkChaylenM2.ForeColor = SystemColors.ButtonHighlight;
-            checkChaylenM2.Location = new Point(1368, 35);
+            checkChaylenM2.Location = new Point(983, 35);
             checkChaylenM2.Name = "checkChaylenM2";
             checkChaylenM2.Size = new Size(90, 24);
             checkChaylenM2.TabIndex = 184;
@@ -2999,7 +2804,7 @@
             label32.AutoSize = true;
             label32.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
             label32.ForeColor = Color.Blue;
-            label32.Location = new Point(1370, 10);
+            label32.Location = new Point(996, 11);
             label32.Name = "label32";
             label32.Size = new Size(69, 23);
             label32.TabIndex = 183;
@@ -3106,7 +2911,7 @@
             pictureBox18.TabIndex = 579;
             pictureBox18.TabStop = false;
             // 
-            // Form1
+            // Main
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -3125,7 +2930,7 @@
             Controls.Add(panelDesktop);
             Controls.Add(panel2);
             FormBorderStyle = FormBorderStyle.None;
-            Name = "Form1";
+            Name = "Main";
             Text = "Form1";
             FormClosing += Form1_FormClosing;
             Load += Form1_Load_1;
@@ -3139,6 +2944,7 @@
             panelDesktop.ResumeLayout(false);
             panel3.ResumeLayout(false);
             panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)picL1_4).EndInit();
             groupBoxMove3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)Move3Item2).EndInit();
             ((System.ComponentModel.ISupportInitialize)Move3Item1).EndInit();
@@ -3176,20 +2982,20 @@
             ((System.ComponentModel.ISupportInitialize)picLift1S2).EndInit();
             ((System.ComponentModel.ISupportInitialize)picLift1S4).EndInit();
             ((System.ComponentModel.ISupportInitialize)picLift1S3).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox102).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox103).EndInit();
+            ((System.ComponentModel.ISupportInitialize)picL3_01).EndInit();
+            ((System.ComponentModel.ISupportInitialize)picL3_11).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox72).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox73).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox60).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox61).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox28).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox57).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox16).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox27).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox13).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox15).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)picL5_00).EndInit();
+            ((System.ComponentModel.ISupportInitialize)picL5_10).EndInit();
+            ((System.ComponentModel.ISupportInitialize)picL4_01).EndInit();
+            ((System.ComponentModel.ISupportInitialize)picL4_11).EndInit();
+            ((System.ComponentModel.ISupportInitialize)picL4_00).EndInit();
+            ((System.ComponentModel.ISupportInitialize)picL4_10).EndInit();
+            ((System.ComponentModel.ISupportInitialize)picL5_01).EndInit();
+            ((System.ComponentModel.ISupportInitialize)picL5_11).EndInit();
+            ((System.ComponentModel.ISupportInitialize)picL3_00).EndInit();
+            ((System.ComponentModel.ISupportInitialize)picL3_10).EndInit();
             ((System.ComponentModel.ISupportInitialize)picM1_I3).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox92).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox77).EndInit();
@@ -3203,9 +3009,9 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox143).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox142).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox136).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox128).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox129).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox130).EndInit();
+            ((System.ComponentModel.ISupportInitialize)picL2_2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)picL2_1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)picL2_0).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox125).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox115).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox116).EndInit();
@@ -3230,7 +3036,6 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox34).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox35).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox31).EndInit();
-            ((System.ComponentModel.ISupportInitialize)picL1_4).EndInit();
             ((System.ComponentModel.ISupportInitialize)picL1_3).EndInit();
             ((System.ComponentModel.ISupportInitialize)PicMC1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox33).EndInit();
@@ -3294,14 +3099,10 @@
         private Button BtnPageL4;
         private Button BtnPageL3;
         private Button BtnPageL2;
-        private CheckBox CheckX104B;
         private CheckBox CheckY1088;
-        private CheckBox CheckX104A;
         private CheckBox CheckY2;
-        private CheckBox CheckX1059;
         private CheckBox CheckBt01Wanning;
         private CheckBox CheckY1089;
-        private CheckBox CheckX1055;
         private PictureBox pictureBox29;
         private CheckBox CheckY100;
         private CheckBox checkY11;
@@ -3328,25 +3129,14 @@
         private Label label37;
         private Label label36;
         private Label label38;
-        private CheckBox checkBox11;
         private Label label40;
-        private CheckBox checkX105E;
         private CheckBox checkY108B;
         private Label label39;
-        private CheckBox checkBox7;
         private CheckBox checkBox8;
         private CheckBox checkX10A1;
         private CheckBox checkX10A2;
         private CheckBox checkX10A6;
         private CheckBox checkX10A5;
-        private CheckBox checkBox2;
-        private CheckBox checkBox3;
-        private CheckBox checkBox9;
-        private CheckBox checkBox10;
-        private CheckBox checkLSensorL4;
-        private CheckBox checkLSensorL3;
-        private CheckBox checkLSensorL2;
-        private CheckBox checkLSensorL1;
         private Panel panel3;
         private GroupBox groupBoxMove2;
         private PictureBox Move2Item1;
@@ -3385,20 +3175,20 @@
         private TextBox databaseUrl;
         private TextBox textBox1;
         private Label label35;
-        private PictureBox pictureBox102;
-        private PictureBox pictureBox103;
+        private PictureBox picL3_01;
+        private PictureBox picL3_11;
         private PictureBox pictureBox72;
         private PictureBox pictureBox73;
-        private PictureBox pictureBox60;
-        private PictureBox pictureBox61;
-        private PictureBox pictureBox28;
-        private PictureBox pictureBox57;
-        private PictureBox pictureBox16;
-        private PictureBox pictureBox27;
-        private PictureBox pictureBox13;
-        private PictureBox pictureBox15;
-        private PictureBox pictureBox4;
-        private PictureBox pictureBox3;
+        private PictureBox picL5_00;
+        private PictureBox picL5_10;
+        private PictureBox picL4_01;
+        private PictureBox picL4_11;
+        private PictureBox picL4_00;
+        private PictureBox picL4_10;
+        private PictureBox picL5_01;
+        private PictureBox picL5_11;
+        private PictureBox picL3_00;
+        private PictureBox picL3_10;
         private PictureBox picM1_I3;
         private PictureBox pictureBox92;
         private PictureBox picMove4ps2;
@@ -3419,9 +3209,9 @@
         private PictureBox pictureBox143;
         private PictureBox pictureBox142;
         private PictureBox pictureBox136;
-        private PictureBox pictureBox128;
-        private PictureBox pictureBox129;
-        private PictureBox pictureBox130;
+        private PictureBox picL2_2;
+        private PictureBox picL2_1;
+        private PictureBox picL2_0;
         private PictureBox pictureBox125;
         private Label label18;
         private Label label17;
